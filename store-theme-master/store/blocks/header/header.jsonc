@@ -8,8 +8,8 @@
   "header-layout.desktop": {
     "children": [
       "flex-layout.row#1-desktop",
-      "flex-layout.row#3-desktop",
-      "sticky-layout#4-desktop"
+      "flex-layout.row#top-menu-desktop",
+      "sticky-layout#header-desktop"
     ]
   },
 
@@ -20,7 +20,7 @@
     }
   },
   
-  "flex-layout.row#3-desktop": {
+  "flex-layout.row#top-menu-desktop": {
     "props": {
       "blockClass": "menu-link",
       "horizontalAlign": "center",
@@ -29,26 +29,34 @@
       "fullWidth": true
     },
     "children": [
-      "vtex.menu@2.x:menu#websites",
-      "flex-layout.col#spacer",
-      "vtex.menu@2.x:menu#institutional"
+      "flex-layout.row#top-menu"
     ]
   },
-  "flex-layout.col#spacer": {
+  "flex-layout.row#top-menu": {
     "props": {
-      "width": "grow"
+      "blockClass": "top-menu",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "fullWidth": true
+    },
+    "children": ["rich-text#top-menu"]
+  },
+  "rich-text#top-menu": {
+    "props": {
+      "text": "GANHE 5% DE DESCONTO NA PRIMEIRA COMPRA",
+      "blockClass": "top-menu-text"
     }
   },
-  "sticky-layout#4-desktop": {
+
+  "sticky-layout#header-desktop": {
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#4-desktop"]
+    "children": ["flex-layout.row#main-header-desktop", "flex-layout.row#header-desktop"]
   },
-  "flex-layout.row#4-desktop": {
+  "flex-layout.row#main-header-desktop": {
     "props": {
       "blockClass": "main-header",
-      "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
@@ -56,19 +64,94 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#category-menu",
-      "flex-layout.col#spacer",
-      "search-bar",
-      "locale-switcher",
-      "login",
-      "minicart.v2"
+      "search-bar#header",
+      "flex-layout.row#contact-desktop",
+      "flex-layout.row#minicart-desktop",
+      "minicart.v2",
+      "login"
     ]
   },
   "flex-layout.col#logo-desktop": {
     "props": {
-      "verticalAlign": "middle"
+      "verticalAlign": "center"
     },
     "children": ["logo#desktop"]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/images/hospitalarlogo.svg",
+      "width": 308,
+      "height": 90,
+      "blockClass": "logo-image"
+    }
+  },
+
+  "search-bar#header": {
+    "props": {
+      "placeholder": "",
+      "compactMode": false,
+      "openAutocompleteOnFocus": true,
+      "containerMode": "container",
+      "displayMode": "clear-button",
+      "blockClass": "header-search"
+    }
+  },
+
+  "flex-layout.row#contact-desktop": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "contact-box"
+    },
+    "children": ["flex-layout.col#contact-image", "flex-layout.col#contact-desktop"]
+  },
+  "flex-layout.col#contact-image": {
+    "props": {
+      "blockClass": "contact-image-box"
+    },
+    "children": ["image#contact-image"]
+  },
+  "image#contact-image": {
+    "props": {
+      "src": "assets/images/whatsapp.svg",
+      "width": 38,
+      "height": 40,
+      "blockClass": "wpp-image"
+    }
+  },
+  "flex-layout.col#contact-desktop": {
+    "props": {
+      "blockClass": "contact-text-box"
+    },
+    "children": ["rich-text#contact-text", "rich-text#contact-number"]
+  },
+  "rich-text#contact-text": {
+    "props": {
+      "text": "Whatsapp",
+      "blockClass": "contact-text"
+    }
+  },
+  "rich-text#contact-number": {
+    "props": {
+      "text": "(42) 984340311",
+      "blockClass": "contact-number"
+    }
+  },
+
+  "flex-layout.row#minicart-desktop": {
+    "children": [""]
+  },
+
+  "flex-layout.row#header-desktop": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#category-menu"]
   },
   "flex-layout.col#category-menu": {
     "props": {
@@ -76,15 +159,7 @@
     },
     "children": ["vtex.menu@2.x:menu#category-menu"]
   },
-  "logo#desktop": {
-    "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
-      "width": "180",
-      "height": "12"
-    }
-  },
+
   "header-layout.mobile": {
     "children": ["sticky-layout#1-mobile"]
   },
@@ -95,7 +170,6 @@
     "children": [
       "drawer",
       "logo#mobile",
-      "flex-layout.col#spacer",
       "login",
       "minicart.v2"
     ],

@@ -65,12 +65,40 @@
   margin: 1rem 0;
 }
 
+.autoCompleteOuterContainer--header-search {
+  width: 581px;
+}
+
+.autoCompleteOuterContainer--header-search :global(.vtex-styleguide-9-x-input) {
+  display: flex;
+  height: 39.68px;
+  border-radius: 20px 0 0 20px;
+  background-color: #73C2AD33;
+}
+
+:global(.vtex-input__suffix) {
+  background-color: #73C2AD33;
+  border-radius: 0 20px 20px 0;
+}
+
+:global(.vtex-input-prefix__group) {
+  border: 1px;
+}
+
+.searchBarIcon--header-search--search {
+  display: none;
+}
+
+.logoImage--logo-image {
+  padding-bottom: 15px;
+}
+
 @media only screen and (min-width: 640px) {
   .newsletter .container {
     padding: 140px;
   }
   .label {
-     font-size: 40px;
+    font-size: 40px;
   }
   .infoCardContainer--info-card-home .infoCardTextContainer {
     width: 30%;
