@@ -1,0 +1,77 @@
+.styledLinkContent--first-menu::before {
+    content: url("assets/images/menu.svg");
+    width: 25px;
+}
+
+.styledLinkContent--first-menu {
+    font-size: 14px;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+}
+
+.submenuWrapper--menu-box--isOpen {
+    margin-left: 0;
+}
+
+.menuContainer--submenu-box {
+    display: flex;
+    margin-left: 0;
+    width: 352px;
+    align-items: center;
+}
+
+.menuItem--menu-even--isClosed, .menuItem--menu-even--isOpen {
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+}
+
+.styledLinkContent--menu-even {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.styledLinkContent--menu-even:hover {
+    color: #E7818C;
+}
+
+.menuItem--menu-odd--isClosed, .menuItem--menu-odd--isOpen {
+    background-color: #E7818C;
+    display: flex;
+    width: 100%;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+}
+
+.styledLinkContent--menu-odd {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.styledLinkContent--menu-odd:hover {
+    color: #fff;
+}
+
+.submenuWrapper--submenu-acessibilidade--isOpen {
+    width: 233px;
+    height: 391px;
+    margin-left: 45px;
+    top: -31px;
+}
+
+.styledLinkContainer--submenu-content, .styledLinkContent--submenu-content {
+    margin: 0;
+    color: #000;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.styledLinkContent--submenu-content:hover {
+    font-weight: 700;
+}

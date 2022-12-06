@@ -1,8 +1,9 @@
 .flexRowContent--main-header {
   height: 112px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  background-color: #FFFFFF66;
 }
 
 .flexRowContent--contact-box {
@@ -15,6 +16,38 @@
   width: 110px;
   height: 15px;
 }
+
+.flexRowContent--minicart-icon-box {
+  width: 50%;
+  height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.flexRowContent--login-box {
+  display: flex;
+  width: 50%;
+  height: 44px;
+  align-items: center;
+}
+
+.flexColChild--minicart-icon :global(.vtex-button):hover {
+  background: none;
+}
+
+.flexColChild--login-icon-box :global(.vtex-button__label) {
+  padding: 0!important;
+}
+
+.flexColChild--login-icon-box :global(.vtex-button):hover {
+  background: none;
+}
+
+.flexRow--submenu-box {
+  background-color: #FFFFFF66;
+  width: 100%;
+}
+
 
 @media screen and (min-width: 40em) {
   .flexRowContent--menu-link,
@@ -35,10 +68,6 @@
   color: #fff;
   height: 30px;
   align-items: center;
-}
-
-.flexRowContent--main-header {
-  background-color: #f0f0f0;
 }
 
 .flexRowContent--main-header-mobile {

@@ -1,0 +1,7 @@
+:global(.vtex-login-2-x-label) {
+    background-image: url("assets/images/login.svg");
+    background-repeat: no-repeat;
+    width: 38px;
+    height: 40px;
+    padding: 0;
+}

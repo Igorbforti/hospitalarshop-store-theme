@@ -7,19 +7,11 @@
   },
   "header-layout.desktop": {
     "children": [
-      "flex-layout.row#1-desktop",
       "flex-layout.row#top-menu-desktop",
       "sticky-layout#header-desktop"
     ]
   },
 
-  "flex-layout.row#1-desktop": {
-    "children": ["telemarketing"],
-    "props": {
-      "fullWidth": true
-    }
-  },
-  
   "flex-layout.row#top-menu-desktop": {
     "props": {
       "blockClass": "menu-link",
@@ -52,7 +44,7 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#main-header-desktop", "flex-layout.row#header-desktop"]
+    "children": ["flex-layout.row#main-header-desktop", "flex-layout.row#sub-header-desktop"]
   },
   "flex-layout.row#main-header-desktop": {
     "props": {
@@ -67,8 +59,7 @@
       "search-bar#header",
       "flex-layout.row#contact-desktop",
       "flex-layout.row#minicart-desktop",
-      "minicart.v2",
-      "login"
+      "flex-layout.row#login-desktop"
     ]
   },
   "flex-layout.col#logo-desktop": {
@@ -115,7 +106,7 @@
   "image#contact-image": {
     "props": {
       "src": "assets/images/whatsapp.svg",
-      "width": 38,
+      "width": 42,
       "height": 40,
       "blockClass": "wpp-image"
     }
@@ -140,26 +131,77 @@
   },
 
   "flex-layout.row#minicart-desktop": {
-    "children": [""]
+    "props": {
+      "blockClass": "minicart-icon-box"
+    },
+    "children": ["flex-layout.col#minicart-icon", "flex-layout.col#minicart-text"]
+  },
+  "flex-layout.col#minicart-icon": {
+    "props": {
+      "blockClass": "minicart-icon"
+    },
+    "children": ["minicart.v2#desktop"]
+  },
+  "minicart.v2#desktop": {
+    "props": {
+      "blockClass": "minicart#desktop"
+    }
+  },
+  "flex-layout.col#minicart-text": {
+    "props": {
+      "blockClass": "minicart-box"
+    },
+    "children": ["rich-text#minicart-text"]
+  },
+  "rich-text#minicart-text": {
+    "props": {
+      "text": "Meu Carrinho",
+      "blockClass": "minicart-text"
+    }
   },
 
-  "flex-layout.row#header-desktop": {
+  "flex-layout.row#login-desktop": {
     "props": {
-      "horizontalAlign": "center",
+      "blockClass": "login-box"
+    },
+    "children": ["flex-layout.col#login-icon", "flex-layout.col#login-text"]
+  },
+  "flex-layout.col#login-icon": {
+    "props": {
+      "blockClass": "login-icon-box"
+    },
+    "children": ["login#desktop"]
+  },
+  "login#desktop": {
+    "props": {
+      "iconLabel": " ",
+      "blockClass": "login-desktop"
+    }
+  },
+  "flex-layout.col#login-text": {
+    "props": {
+      "blockClass": "login-box"
+    },
+    "children": ["rich-text#login-text"]
+  },
+  "rich-text#login-text": {
+    "props": {
+      "text": "Entrar ou Cadastrar",
+      "blockClass": "login-text"
+    }
+  },
+
+  "flex-layout.row#sub-header-desktop": {
+    "props": {
+      "blockClass": "submenu-box",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true
     },
-    "children": ["flex-layout.col#category-menu"]
-  },
-  "flex-layout.col#category-menu": {
-    "props": {
-      "verticalAlign": "middle"
-    },
     "children": ["vtex.menu@2.x:menu#category-menu"]
   },
-
+    
   "header-layout.mobile": {
     "children": ["sticky-layout#1-mobile"]
   },
@@ -180,21 +222,6 @@
       "fullWidth": true
     }
   },
-  "drawer": {
-    "children": ["menu#drawer"]
-  },
-
-  "menu#drawer": {
-    "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
-    ],
-    "props": {
-      "orientation": "vertical"
-    }
-  },
-
   "logo#mobile": {
     "props": {
       "title": "Logo",

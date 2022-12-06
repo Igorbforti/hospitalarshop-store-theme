@@ -76,6 +76,11 @@
   background-color: #73C2AD33;
 }
 
+.autoCompleteOuterContainer--header-search:hover {
+  background-color: #62a59433;
+  border-radius: 20px;
+}
+
 :global(.vtex-input__suffix) {
   background-color: #73C2AD33;
   border-radius: 0 20px 20px 0;
@@ -91,6 +96,10 @@
 
 .logoImage--logo-image {
   padding-bottom: 15px;
+}
+
+.logoLink--logo-image {
+  width: 290px;
 }
 
 @media only screen and (min-width: 640px) {
