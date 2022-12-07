@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap');
+
 .styledLinkContent--first-menu::before {
     content: url("assets/images/menu.svg");
     width: 25px;
@@ -32,6 +34,7 @@
 .styledLinkContent--menu-even {
     font-size: 16px;
     font-weight: 700;
+    font-family: 'Merriweather', serif;
     color: #000;
 }
 
@@ -51,6 +54,7 @@
 .styledLinkContent--menu-odd {
     font-size: 16px;
     font-weight: 700;
+    font-family: 'Merriweather', serif;
     color: #000;
 }
 
@@ -61,7 +65,7 @@
 .submenuWrapper--submenu-acessibilidade--isOpen {
     width: 233px;
     height: 391px;
-    margin-left: 45px;
+    margin-left: 41px;
     top: -31px;
 }
 
@@ -69,6 +73,7 @@
     margin: 0;
     color: #000;
     font-size: 16px;
+    font-family: 'Merriweather', serif;
     line-height: 1.5;
 }
 
