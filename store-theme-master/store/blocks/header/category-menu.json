@@ -89,7 +89,7 @@
   "vtex.menu@2.x:submenu#acessibilidade": {
     "props": {
       "width": "auto",
-      "blockClass": "sub-submenu"
+      "blockClass": "sub-submenu1"
     },
     "children": [
       "vtex.menu@2.x:menu#acessibilidade"
@@ -270,7 +270,7 @@
   "vtex.menu@2.x:submenu#cuidados": {
     "props": {
       "width": "auto",
-      "blockClass": "sub-submenu"
+      "blockClass": "sub-submenu2"
     },
     "children": [
       "vtex.menu@2.x:menu#cuidados"
@@ -467,7 +467,7 @@
   "vtex.menu@2.x:submenu#curativos": {
     "props": {
       "width": "auto",
-      "blockClass": "sub-submenu"
+      "blockClass": "sub-submenu3"
     },
     "children": [
       "vtex.menu@2.x:menu#curativos"
@@ -664,7 +664,7 @@
   "vtex.menu@2.x:submenu#diabetes": {
     "props": {
       "width": "auto",
-      "blockClass": "sub-submenu"
+      "blockClass": "sub-submenu4"
     },
     "children": [
       "vtex.menu@2.x:menu#diabetes"
@@ -810,7 +810,7 @@
   "vtex.menu@2.x:submenu#equipamentos": {
     "props": {
       "width": "auto",
-      "blockClass": "sub-submenu"
+      "blockClass": "sub-submenu5"
     },
     "children": [
       "vtex.menu@2.x:menu#equipamentos"
@@ -1041,7 +1041,7 @@
   "vtex.menu@2.x:submenu#esterilizacao": {
     "props": {
       "width": "auto",
-      "blockClass": "sub-submenu"
+      "blockClass": "sub-submenu6"
     },
     "children": [
       "vtex.menu@2.x:menu#esterilizacao"
@@ -1204,7 +1204,7 @@
   "vtex.menu@2.x:submenu#estetica": {
     "props": {
       "width": "auto",
-      "blockClass": "sub-submenu"
+      "blockClass": "sub-submenu7"
     },
     "children": [
       "vtex.menu@2.x:menu#estetica"
@@ -1299,7 +1299,7 @@
   "vtex.menu@2.x:submenu#fisioterapia": {
     "props": {
       "width": "auto",
-      "blockClass": "sub-submenu"
+      "blockClass": "sub-submenu8"
     },
     "children": [
       "vtex.menu@2.x:menu#fisioterapia"
@@ -1564,7 +1564,7 @@
   "vtex.menu@2.x:submenu#ginecologia": {
     "props": {
       "width": "auto",
-      "blockClass": "sub-submenu"
+      "blockClass": "sub-submenu9"
     },
     "children": [
       "vtex.menu@2.x:menu#ginecologia"
@@ -1676,7 +1676,7 @@
   "vtex.menu@2.x:submenu#homecare": {
     "props": {
       "width": "auto",
-      "blockClass": "sub-submenu"
+      "blockClass": "sub-submenu10"
     },
     "children": [
       "vtex.menu@2.x:menu#homecare"
@@ -1788,7 +1788,7 @@
   "vtex.menu@2.x:submenu#instrumentos": {
     "props": {
       "width": "auto",
-      "blockClass": "sub-submenu"
+      "blockClass": "sub-submenu11"
     },
     "children": [
       "vtex.menu@2.x:menu#instrumentos"
@@ -1985,7 +1985,7 @@
   "vtex.menu@2.x:submenu#material": {
     "props": {
       "width": "auto",
-      "blockClass": "sub-submenu"
+      "blockClass": "sub-submenu12"
     },
     "children": [
       "vtex.menu@2.x:menu#material"
@@ -2080,7 +2080,7 @@
   "vtex.menu@2.x:submenu#medicamentos": {
     "props": {
       "width": "auto",
-      "blockClass": "sub-submenu"
+      "blockClass": "sub-submenu13"
     },
     "children": [
       "vtex.menu@2.x:menu#medicamentos"
@@ -2175,7 +2175,7 @@
   "vtex.menu@2.x:submenu#meias": {
     "props": {
       "width": "auto",
-      "blockClass": "sub-submenu"
+      "blockClass": "sub-submenu14"
     },
     "children": [
       "vtex.menu@2.x:menu#meias"
@@ -2253,7 +2253,7 @@
   "vtex.menu@2.x:submenu#moveis": {
     "props": {
       "width": "auto",
-      "blockClass": "sub-submenu"
+      "blockClass": "sub-submenu15"
     },
     "children": [
       "vtex.menu@2.x:menu#moveis"
@@ -2467,7 +2467,7 @@
   "vtex.menu@2.x:submenu#nutricao": {
     "props": {
       "width": "auto",
-      "blockClass": "sub-submenu"
+      "blockClass": "sub-submenu16"
     },
     "children": [
       "vtex.menu@2.x:menu#nutricao"
@@ -2579,7 +2579,7 @@
   "vtex.menu@2.x:submenu#odontologia": {
     "props": {
       "width": "auto",
-      "blockClass": "sub-submenu"
+      "blockClass": "sub-submenu17"
     },
     "children": [
       "vtex.menu@2.x:menu#odontologia"
@@ -2708,7 +2708,7 @@
   "vtex.menu@2.x:submenu#oxigenoterapia": {
     "props": {
       "width": "auto",
-      "blockClass": "sub-submenu"
+      "blockClass": "sub-submenu18"
     },
     "children": [
       "vtex.menu@2.x:menu#oxigenoterapia"
@@ -2904,7 +2904,7 @@
   "vtex.menu@2.x:submenu#laboratorio": {
     "props": {
       "width": "auto",
-      "blockClass": "sub-submenu"
+      "blockClass": "sub-submenu19"
     },
     "children": [
       "vtex.menu@2.x:menu#laboratorio"
@@ -3049,7 +3049,7 @@
   "vtex.menu@2.x:submenu#hospitalares": {
     "props": {
       "width": "auto",
-      "blockClass": "sub-submenu"
+      "blockClass": "sub-submenu20"
     },
     "children": [
       "vtex.menu@2.x:menu#hospitalares"
@@ -3312,7 +3312,7 @@
   "vtex.menu@2.x:submenu#ortopedicos": {
     "props": {
       "width": "auto",
-      "blockClass": "sub-submenu"
+      "blockClass": "sub-submenu21"
     },
     "children": [
       "vtex.menu@2.x:menu#ortopedicos"
@@ -3423,7 +3423,7 @@
   "vtex.menu@2.x:submenu#protecao": {
     "props": {
       "width": "auto",
-      "blockClass": "sub-submenu"
+      "blockClass": "sub-submenu22"
     },
     "children": [
       "vtex.menu@2.x:menu#protecao"
@@ -3551,7 +3551,7 @@
   "vtex.menu@2.x:submenu#reabilitacao": {
     "props": {
       "width": "auto",
-      "blockClass": "sub-submenu"
+      "blockClass": "sub-submenu23"
     },
     "children": [
       "vtex.menu@2.x:menu#reabilitacao"
@@ -3627,7 +3627,7 @@
   "vtex.menu@2.x:submenu#resgate": {
     "props": {
       "width": "auto",
-      "blockClass": "sub-submenu"
+      "blockClass": "sub-submenu24"
     },
     "children": [
       "vtex.menu@2.x:menu#resgate"
@@ -3703,7 +3703,7 @@
   "vtex.menu@2.x:submenu#vestuario": {
     "props": {
       "width": "auto",
-      "blockClass": "sub-submenu"
+      "blockClass": "sub-submenu25"
     },
     "children": [
       "vtex.menu@2.x:menu#vestuario"
