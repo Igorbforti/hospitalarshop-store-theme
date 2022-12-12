@@ -48,6 +48,36 @@
   width: 100%;
 }
 
+/* HOMEPAGE */
+
+.flexRow--main-banner-box {
+  height: 701px;
+}
+
+.flexRowContent--shelf-top {
+  align-items: center;
+}
+
+.flexRowContent--shelf-bottom {
+  align-items: center;
+  line-height: 0.30;
+}
+
+.flexRowContent--discount-shelf {
+  display: flex;
+  flex-direction: column;
+  margin-top: 96px;
+  margin-bottom: 128px;
+}
+
+.flexColChild--cart-button :global(.vtex-button) {
+    font-weight: 400;
+    width: 130px;
+    background-color: #0F7480B2;
+    border: none;
+    border-radius: 5px;
+    min-height: 35px;
+}
 
 @media screen and (min-width: 40em) {
   .flexRowContent--menu-link,

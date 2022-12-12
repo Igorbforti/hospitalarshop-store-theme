@@ -16,7 +16,7 @@
       "blockClass": "first-menu",
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/",
+        "href": "",
         "noFollow": false,
         "tagTitle": "Todos Departamentos",
         "text": "Todos Departamentos"
@@ -70,14 +70,14 @@
   },
   "menu-item#category-apparel-acessibilidade": {
     "props": {
-      "blockClass": "menu-even",
+      "blockClass": "menu-style",
       "id": "menu-item-category-apparel-acessibilidade",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/clothing/",
+        "href": "/acessibilidade-e-mobilidade/c?_c=acessibilidade-e-mobilidade&map=c,ft",
         "noFollow": false,
         "tagTitle": "Acessibilidade e Mobilidade",
         "text": "Acessibilidade e Mobilidade"
@@ -251,14 +251,14 @@
   
   "menu-item#category-apparel-cuidados": {
     "props": {
-      "blockClass": "menu-odd",
+      "blockClass": "menu-style",
       "id": "menu-item-category-apparel-cuidados",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/accessories/",
+        "href": "/cuidados/x?_c=cuidados&map=c,ft",
         "noFollow": false,
         "tagTitle": "Cuidados",
         "text": "Cuidados"
@@ -448,14 +448,14 @@
 
   "menu-item#category-apparel-curativos": {
     "props": {
-      "blockClass": "menu-even",
+      "blockClass": "menu-style",
       "id": "menu-item-category-apparel-curativos",
       "type": "custom",
       "iconId": null, 
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
+        "href": "/curativos/x?_c=curativos&map=c,ft",
         "noFollow": false,
         "tagTitle": "Curativos",
         "text": "Curativos"
@@ -645,7 +645,7 @@
 
   "menu-item#category-apparel-diabetes": {
     "props": {
-      "blockClass": "menu-odd",
+      "blockClass": "menu-style",
       "id": "menu-item-category-apparel-diabetes",
       "type": "custom",
       "iconId": null,
@@ -791,7 +791,7 @@
 
   "menu-item#category-apparel-equipamentos": {
     "props": {
-      "blockClass": "menu-even",
+      "blockClass": "menu-style",
       "id": "menu-item-category-apparel-equipamentos",
       "type": "custom",
       "iconId": null,
@@ -1022,7 +1022,7 @@
 
   "menu-item#category-apparel-esterilizacao": {
     "props": {
-      "blockClass": "menu-odd",
+      "blockClass": "menu-style",
       "id": "menu-item-category-apparel-esterilizacao",
       "type": "custom",
       "iconId": null,
@@ -1185,7 +1185,7 @@
 
   "menu-item#category-apparel-estetica": {
     "props": {
-      "blockClass": "menu-even",
+      "blockClass": "menu-style",
       "id": "menu-item-category-apparel-estetica",
       "type": "custom",
       "iconId": null,
@@ -1280,7 +1280,7 @@
 
   "menu-item#category-apparel-fisioterapia": {
     "props": {
-      "blockClass": "menu-odd",
+      "blockClass": "menu-style",
       "id": "menu-item-category-apparel-fisioterapia",
       "type": "custom",
       "iconId": null,
@@ -1545,7 +1545,7 @@
 
   "menu-item#category-apparel-ginecologia": {
     "props": {
-      "blockClass": "menu-even",
+      "blockClass": "menu-style",
       "id": "menu-item-category-apparel-ginecologia",
       "type": "custom",
       "iconId": null,
@@ -1657,7 +1657,7 @@
 
   "menu-item#category-apparel-homecare": {
     "props": {
-      "blockClass": "menu-odd",
+      "blockClass": "menu-style",
       "id": "menu-item-category-apparel-homecare",
       "type": "custom",
       "iconId": null,
@@ -1769,7 +1769,7 @@
 
   "menu-item#category-apparel-instrumentos": {
     "props": {
-      "blockClass": "menu-even",
+      "blockClass": "menu-style",
       "id": "menu-item-category-apparel-instrumentos",
       "type": "custom",
       "iconId": null,
@@ -1966,7 +1966,7 @@
 
   "menu-item#category-apparel-material": {
     "props": {
-      "blockClass": "menu-odd",
+      "blockClass": "menu-style",
       "id": "menu-item-category-apparel-material",
       "type": "custom",
       "iconId": null,
@@ -2061,7 +2061,7 @@
 
   "menu-item#category-apparel-medicamentos": {
     "props": {
-      "blockClass": "menu-even",
+      "blockClass": "menu-style",
       "id": "menu-item-category-apparel-medicamentos",
       "type": "custom",
       "iconId": null,
@@ -2156,7 +2156,7 @@
 
   "menu-item#category-apparel-meias": {
     "props": {
-      "blockClass": "menu-odd",
+      "blockClass": "menu-style",
       "id": "menu-item-category-apparel-meias",
       "type": "custom",
       "iconId": null,
@@ -2234,7 +2234,7 @@
 
   "menu-item#category-apparel-moveis": {
     "props": {
-      "blockClass": "menu-even",
+      "blockClass": "menu-style",
       "id": "menu-item-category-apparel-moveis",
       "type": "custom",
       "iconId": null,
@@ -2448,7 +2448,7 @@
 
   "menu-item#category-apparel-nutricao": {
     "props": {
-      "blockClass": "menu-odd",
+      "blockClass": "menu-style",
       "id": "menu-item-category-apparel-nutricao",
       "type": "custom",
       "iconId": null,
@@ -2560,7 +2560,7 @@
 
   "menu-item#category-apparel-odontologia": {
     "props": {
-      "blockClass": "menu-even",
+      "blockClass": "menu-style",
       "id": "menu-item-category-apparel-odontologia",
       "type": "custom",
       "iconId": null,
@@ -2689,7 +2689,7 @@
 
   "menu-item#category-apparel-oxigenoterapia": {
     "props": {
-      "blockClass": "menu-odd",
+      "blockClass": "menu-style",
       "id": "menu-item-category-apparel-oxigenoterapia",
       "type": "custom",
       "iconId": null,
@@ -2886,7 +2886,7 @@
 
   "menu-item#category-apparel-laboratorio": {
     "props": {
-      "blockClass": "menu-even",
+      "blockClass": "menu-style",
       "id": "menu-item-category-apparel-laboratorio",
       "type": "custom",
       "iconId": null,
@@ -3031,7 +3031,7 @@
 
   "menu-item#category-apparel-hospitalares": {
     "props": {
-      "blockClass": "menu-odd",
+      "blockClass": "menu-style",
       "id": "menu-item-category-apparel-hospitalares",
       "type": "custom",
       "iconId": null,
@@ -3294,14 +3294,14 @@
 
   "menu-item#category-apparel-ortopedicos": {
     "props": {
-      "blockClass": "menu-even",
+      "blockClass": "menu-style",
       "id": "menu-item-category-apparel-ortopedicos",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
+        "href": "/produtos-ortopedicos/p?_c=produtos-ortopedicos&map=c,ft",
         "noFollow": false,
         "tagTitle": "Produtos Ortopédicos",
         "text": "Produtos Ortopédicos"
@@ -3405,7 +3405,7 @@
 
   "menu-item#category-apparel-protecao": {
     "props": {
-      "blockClass": "menu-odd",
+      "blockClass": "menu-style",
       "id": "menu-item-category-apparel-protecao",
       "type": "custom",
       "iconId": null,
@@ -3533,7 +3533,7 @@
 
   "menu-item#category-apparel-reabilitacao": {
     "props": {
-      "blockClass": "menu-even",
+      "blockClass": "menu-style",
       "id": "menu-item-category-apparel-reabilitacao",
       "type": "custom",
       "iconId": null,
@@ -3609,7 +3609,7 @@
 
   "menu-item#category-apparel-resgate": {
     "props": {
-      "blockClass": "menu-odd",
+      "blockClass": "menu-style",
       "id": "menu-item-category-apparel-resgate",
       "type": "custom",
       "iconId": null,
@@ -3685,7 +3685,7 @@
 
   "menu-item#category-apparel-vestuario": {
     "props": {
-      "blockClass": "menu-even",
+      "blockClass": "menu-style",
       "id": "menu-item-category-apparel-vestuario",
       "type": "custom",
       "iconId": null,

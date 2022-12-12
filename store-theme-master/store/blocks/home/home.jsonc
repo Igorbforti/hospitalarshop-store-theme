@@ -1,61 +1,63 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
+      "flex-layout.row#main-banner",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "flex-layout.row#deals",
       "__fold__",
-      "rich-text#shelf-title",
-      "flex-layout.row#shelf",
-      "info-card#home",
+      "flex-layout.row#discount-shelf",
+      "flex-layout.row#shelf2",
       "rich-text#question",
       "rich-text#link",
       "newsletter"
     ]
   },
 
-  "list-context.image-list#demo": {
-    "children": ["slider-layout#demo-images"],
+  "flex-layout.row#main-banner": {
     "props": {
-      "height": 570,
-      "preload": true,
-      "images": [
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
-        },
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
-        }
-      ]
-    }
+      "blockClass": "main-banner-box"
+    },
+    "children": ["image#main-banner"]
   },
-  "slider-layout#demo-images": {
+  "image#main-banner": {
     "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "infinite": true,
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
+      "src": "assets/images/banner.svg",
+      "blockClass": "main-banner"
     }
   },
 
+
+  "flex-layout.row#discount-shelf": {
+    "props": {
+      "blockClass": "discount-shelf"
+    },
+    "children": ["flex-layout.row#shelf-title", "flex-layout.row#shelf-context"]
+  },
+
+  "flex-layout.row#shelf-title": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["rich-text#shelf-title"]
+  },
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Summer",
+      "text": "Promoção Hospitalar Shop",
       "blockClass": "shelfTitle"
     }
+  },
+
+  "flex-layout.row#shelf-context": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#shelf"]
   },
   "flex-layout.row#shelf": {
     "children": ["list-context.product-list#demo1"]
   },
   "list-context.product-list#demo1": {
-    "blocks": ["product-summary.shelf"],
+    "blocks": ["product-summary.shelf#discount"],
     "children": ["slider-layout#demo-products"],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
@@ -70,21 +72,33 @@
       },
       "infinite": true,
       "fullWidth": false,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
       "blockClass": "shelf"
     }
   },
 
-  "info-card#home": {
+  "flex-layout.row#shelf2": {
+    "children": ["list-context.product-list#demo2"]
+  },
+  "list-context.product-list#demo2": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products2"],
     "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
-      "textAlignment": "center"
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "showPaginationDots": "never",
+      "blockClass": "product-shelf"
     }
   },
 

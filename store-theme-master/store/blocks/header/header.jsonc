@@ -81,7 +81,7 @@
 
   "search-bar#header": {
     "props": {
-      "placeholder": "",
+      "placeholder": "Buscar",
       "compactMode": false,
       "openAutocompleteOnFocus": true,
       "containerMode": "container",

@@ -90,16 +90,20 @@
   border: 1px;
 }
 
-.searchBarIcon--header-search--search {
-  display: none;
-}
-
 .logoImage--logo-image {
   padding-bottom: 15px;
 }
 
 .logoLink--logo-image {
   width: 290px;
+}
+
+/* HOMEPAGE */
+
+.imageElement--main-banner {
+  width: 100%;
+  position: absolute;
+  top: 30px;
 }
 
 @media only screen and (min-width: 640px) {

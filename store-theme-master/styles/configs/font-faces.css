@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Latha';
+    font-weight: 900;
+    src: url('assets/fonts/Latha.ttf');
+}
+
+@font-face {
+    font-family: 'Laila';
+    src: url('assets/fonts/Laila-Medium.ttf');
+    font-weight: 500;
+}

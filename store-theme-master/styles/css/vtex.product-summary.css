@@ -24,9 +24,9 @@
 }
 
 .brandName {
-  font-weight: 600;
-  font-size: 18px;
-  color: #2E2E2E;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
 }
 
 .container {
@@ -35,8 +35,13 @@
 
 .imageContainer {
   text-align: center;
+  margin-right: 11px;
 }
 
 .image {
   border-radius: 0.25rem;
+}
+
+.element--shelf-box {
+  padding: 0;
 }
