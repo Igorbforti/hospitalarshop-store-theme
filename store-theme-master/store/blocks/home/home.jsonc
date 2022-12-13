@@ -5,8 +5,10 @@
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__",
+      "flex-layout.row#info-shelf",
       "flex-layout.row#discount-shelf",
-      "flex-layout.row#shelf2",
+      "flex-layout.row#second-shelf",
+      "flex-layout.row#shelf3",
       "rich-text#question",
       "rich-text#link",
       "newsletter"
@@ -26,6 +28,113 @@
     }
   },
 
+  "flex-layout.row#info-shelf": {
+    "props": {
+      "blockClass": "info-shelf",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#parcel",
+      "flex-layout.col#brand",
+      "flex-layout.col#deliver",
+      "flex-layout.col#special-condition",
+      "flex-layout.col#rent"
+    ]
+  },
+  "flex-layout.col#parcel": {
+    "props": {
+      "blockClass": "info-container"
+    },
+    "children": ["image#card", "rich-text#parcel-text"]
+  },
+  "image#card": {
+    "props": {
+      "src": "assets/images/credit-card.svg",
+      "blockClass": "parcel-card"
+    }
+  },
+  "rich-text#parcel-text": {
+    "props": {
+      "blockClass": "info-shelf-text",
+      "text": "**PARCELE SUAS COMPRAS** <br>EM ATÉ 6X SEM JUROS"
+    }
+  },
+
+  "flex-layout.col#brand": {
+    "props": {
+      "blockClass": "info-container"
+    },
+    "children": ["image#brand", "rich-text#brand-text"]
+  },
+  "image#brand": {
+    "props": {
+      "src": "assets/images/star.svg",
+      "blockClass": "star"
+    }
+  },
+  "rich-text#brand-text": {
+    "props": {
+      "blockClass": "info-shelf-text",
+      "text": "**AS MELHORES MARCAS** <br>DO MERCADO"
+    }
+  },
+
+  "flex-layout.col#deliver": {
+    "props": {
+      "blockClass": "info-container"
+    },
+    "children": ["image#deliver", "rich-text#deliver-text"]
+  },
+  "image#deliver": {
+    "props": {
+      "src": "assets/images/location.svg",
+      "blockClass": "location"
+    }
+  },
+  "rich-text#deliver-text": {
+    "props": {
+      "blockClass": "info-shelf-text",
+      "text": "**ENTREGA EM TODO** <br>TERRITÓRIO NACIONAL"
+    }
+  },
+
+  "flex-layout.col#special-condition": {
+    "props": {
+      "blockClass": "info-container"
+    },
+    "children": ["image#mail", "rich-text#special-condition-text"]
+  },
+  "image#mail": {
+    "props": {
+      "src": "assets/images/bag.svg",
+      "blockClass": "bag"
+    }
+  },
+  "rich-text#special-condition-text": {
+    "props": {
+      "blockClass": "info-shelf-text",
+      "text": "**CONDIÇÕES ESPECIAIS:** <br>CLÍNICAS E HOSPITAIS"
+    }
+  },
+
+  "flex-layout.col#rent": {
+    "props": {
+      "blockClass": "info-container"
+    },
+    "children": ["image#rent", "rich-text#rent-text"]
+  },
+  "image#rent": {
+    "props": {
+      "src": "assets/images/rent.svg",
+      "blockClass": "rent"
+    }
+  },
+  "rich-text#rent-text": {
+    "props": {
+      "blockClass": "info-shelf-text",
+      "text": "**ALUGUEL DE** <br>EQUIPAMENTOS"
+    }
+  },
 
   "flex-layout.row#discount-shelf": {
     "props": {
@@ -42,7 +151,7 @@
   },
   "rich-text#shelf-title": {
     "props": {
-      "text": "Promoção Hospitalar Shop",
+      "text": "Promoções Hospitalar Shop",
       "blockClass": "shelfTitle"
     }
   },
@@ -78,7 +187,28 @@
     }
   },
 
+  "flex-layout.row#second-shelf": {
+    "props": {
+      "blockClass": "other-shelf"
+    },
+    "children": ["flex-layout.row#shelf2-title", "flex-layout.row#shelf2"]
+  },
+  "flex-layout.row#shelf2-title": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["rich-text#shelf2-title"]
+  },
+  "rich-text#shelf2-title": {
+    "props": {
+      "text": "Nome categoria",
+      "blockClass": "other-shelf-title"
+    }
+  },
   "flex-layout.row#shelf2": {
+    "props": {
+      "blockClass": "shelf-box"
+    },
     "children": ["list-context.product-list#demo2"]
   },
   "list-context.product-list#demo2": {
@@ -89,6 +219,33 @@
     }
   },
   "slider-layout#demo-products2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "showPaginationDots": "never",
+      "blockClass": "product-shelf"
+    }
+  },
+
+  "flex-layout.row#shelf3": {
+    "props": {
+      "blockClass": "shelf-box"
+    },
+    "children": ["list-context.product-list#demo3"]
+  },
+  "list-context.product-list#demo3": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products3"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products3": {
     "props": {
       "itemsPerPage": {
         "desktop": 5,

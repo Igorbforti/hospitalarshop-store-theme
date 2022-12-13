@@ -11,7 +11,7 @@
   },
   "flex-layout.col#productRating": {
     "props": {
-      "blockClass": "productRating"
+      "blockClass": "product-rating"
     },
     "children": ["product-rating-inline"]
   },
@@ -47,6 +47,12 @@
   "product-highlight-text": {
     "props": {
       "message": "{highlightName}"
+    }
+  },
+
+  "product-summary-name": {
+    "props": {
+      "blockClass": "product-name"
     }
   },
 

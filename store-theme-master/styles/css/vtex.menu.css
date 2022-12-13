@@ -31,7 +31,7 @@
 
 .styledLinkContent--menu-style {
     font-size: 12px;
-    font-family: "Latha";
+    font-weight: bold;
     color: #000;
 }
 
@@ -48,7 +48,6 @@
     margin: 0;
     color: #000;
     font-size: 12px;
-    font-family: "assets/fonts/Latha.ttf";
     line-height: 1.5;
 }
 

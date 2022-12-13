@@ -125,7 +125,7 @@
   },
   "rich-text#contact-number": {
     "props": {
-      "text": "(42) 984340311",
+      "text": "(11) 3042-8333",
       "blockClass": "contact-number"
     }
   },
