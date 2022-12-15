@@ -3,56 +3,141 @@
     "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
   },
   "footer-layout.desktop": {
+    "props": {
+      "blockClass": "footer-container"
+    },
     "children": [
       "flex-layout.row#footer-1-desktop",
-      "flex-layout.row#footer-2-desktop",
-      "flex-layout.row#footer-3-desktop"
+      "flex-layout.row#footer-2-desktop"
     ]
   },
   "flex-layout.row#footer-1-desktop": {
     "children": [
-      "vtex.menu@2.x:menu#Products",
-      "vtex.menu@2.x:menu#footer-clothing",
-      "vtex.menu@2.x:menu#footer-decoration",
-      "vtex.menu@2.x:menu#footer-bags",
-      "footer-spacer",
-      "social-networks"
+      "flex-layout.col#logo",
+      "flex-layout.col#institutional",
+      "flex-layout.col#doubt",
+      "flex-layout.col#contact",
+      "flex-layout.col#payment"
     ],
     "props": {
       "blockClass": "menu-row",
-      "paddingTop": 6,
       "paddingBottom": 3
     }
   },
-
-  "social-networks": {
+  "flex-layout.col#logo": {
+    "children": ["image#footer-logo"]
+  },
+  "image#footer-logo": {
     "props": {
-      "socialNetworks": [
-        {
-          "name": "Facebook",
-          "url": "https://www.facebook.com/vtexonline/"
-        },
-        {
-          "name": "Instagram",
-          "url": "https://www.instagram.com/vtextruecloud/"
-        },
-        {
-          "name": "Twitter",
-          "url": "https://twitter.com/vtexonline"
-        },
-        {
-          "name": "Youtube",
-          "url": "https://www.youtube.com/user/VTEXTV"
-        }
-      ]
+      "src": "assets/images/footer-logo.svg"
     }
   },
 
-  "flex-layout.row#footer-2-desktop": {
-    "children": ["accepted-payment-methods"],
+  "flex-layout.col#institutional": {
+    "children": [
+      "rich-text#institutional",
+      "link#about-us",
+      "link#brand",
+      "link#seller"
+    ]
+  },
+  "rich-text#institutional": {
     "props": {
-      "blockClass": "payment-methods"
+      "text": "INSTITUCIONAL"
     }
+  },
+  "link#about-us": {
+    "props": {
+      "href": "/",
+      "label": "Sobre Nós"
+    }
+  },
+  "link#brand": {
+    "props": {
+      "href": "/",
+      "label": "Nossas Marcas"
+    }
+  },
+  "link#seller": {
+    "props": {
+      "href": "/",
+      "label": "Seja Um Seller"
+    }
+  },
+
+  "flex-layout.col#doubt": {
+    "children": [
+      "rich-text#doubt",
+      "link#payment-deadline",
+      "link#exchange",
+      "link#privacy",
+      "link#terms"
+    ]
+  },
+  "rich-text#doubt": {
+    "props": {
+      "text": "DÚVIDAS"
+    }
+  },
+  "link#payment-deadline": {
+    "props": {
+      "href": "/",
+      "label": "Prazo e Formas de Pagamento"
+    }
+  },
+  "link#exchange": {
+    "props": {
+      "href": "/",
+      "label": "Política de Trocas"
+    }
+  },
+  "link#privacy": {
+    "props": {
+      "href": "/",
+      "label": "Política de Privaciade e Segurança"
+    }
+  },
+  "link#terms": {
+    "props": {
+      "href": "/",
+      "label": "Termos e Condições de Uso"
+    }
+  },
+
+  "flex-layout.col#contact": {
+    "children": [
+      "rich-text#contact",
+      "link#wpp",
+      "link#contact-email",
+      "link#commercial-email"
+    ]
+  },
+  "rich-text#contact": {
+    "props": {
+      "text": "ATENDIMENTO"
+    }
+  },
+  "link#wpp": {
+    "props": {
+      "href": "",
+      "label": "Whatsapp | (42) 984340311"
+    }
+  },
+  "link#contact-email": {
+    "props": {
+      "href": "",
+      "label": "E-mail | contato@hospitalarshop.com.br"
+    }
+  },
+  "link#commercial-email": {
+    "props": {
+      "href": "",
+      "label": "E-mail | comercial@hospitalarshop.com.br"
+    }
+  },
+
+  "flex-layout.col#payment": {
+    "children": ["accepted-payment-methods"]
   },
   "accepted-payment-methods": {
     "props": {
@@ -60,16 +145,24 @@
     }
   },
 
-  "flex-layout.row#footer-3-desktop": {
-    "children": ["rich-text#footer"],
+  "flex-layout.row#footer-2-desktop": {
+    "children": ["social-networks"],
     "props": {
-      "blockClass": "credits"
+      "blockClass": "payment-methods"
     }
   },
-  "rich-text#footer": {
+  "social-networks": {
     "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
-      "blockClass": "footer"
+      "socialNetworks": [
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/vtextruecloud/"
+        },
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/vtexonline/"
+        }
+      ]
     }
   },
 
