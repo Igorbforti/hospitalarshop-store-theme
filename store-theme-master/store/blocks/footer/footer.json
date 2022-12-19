@@ -34,6 +34,10 @@
   },
 
   "flex-layout.col#institutional": {
+    "props": {
+      "blockClass": "institutional-container",
+      "width": "20%"
+    },
     "children": [
       "rich-text#institutional",
       "link#about-us",
@@ -43,29 +47,37 @@
   },
   "rich-text#institutional": {
     "props": {
+      "blockClass": "footer-title",
       "text": "INSTITUCIONAL"
     }
   },
   "link#about-us": {
     "props": {
+      "blockClass": "footer-text",
       "href": "/",
       "label": "Sobre Nós"
     }
   },
   "link#brand": {
     "props": {
+      "blockClass": "footer-text",
       "href": "/",
       "label": "Nossas Marcas"
     }
   },
   "link#seller": {
     "props": {
+      "blockClass": "footer-text",
       "href": "/",
       "label": "Seja Um Seller"
     }
   },
 
   "flex-layout.col#doubt": {
+    "props": {
+      "blockClass": "doubt-container",
+      "width": "20%"
+    },
     "children": [
       "rich-text#doubt",
       "link#payment-deadline",
@@ -76,35 +88,43 @@
   },
   "rich-text#doubt": {
     "props": {
+      "blockClass": "footer-title",
       "text": "DÚVIDAS"
     }
   },
   "link#payment-deadline": {
     "props": {
-      "href": "/",
+      "blockClass": "footer-text",
+      "href": "/" ,
       "label": "Prazo e Formas de Pagamento"
     }
   },
   "link#exchange": {
     "props": {
+      "blockClass": "footer-text",
       "href": "/",
       "label": "Política de Trocas"
     }
   },
   "link#privacy": {
     "props": {
+      "blockClass": "footer-text",
       "href": "/",
       "label": "Política de Privaciade e Segurança"
     }
   },
   "link#terms": {
     "props": {
+      "blockClass": "footer-text",
       "href": "/",
       "label": "Termos e Condições de Uso"
     }
   },
 
   "flex-layout.col#contact": {
+    "props": {
+      "width": "22%"
+    },
     "children": [
       "rich-text#contact",
       "link#wpp",
@@ -114,33 +134,42 @@
   },
   "rich-text#contact": {
     "props": {
+      "blockClass": "footer-title",
       "text": "ATENDIMENTO"
     }
   },
   "link#wpp": {
     "props": {
+      "blockClass": "footer-text",
       "href": "",
       "label": "Whatsapp | (42) 984340311"
     }
   },
   "link#contact-email": {
     "props": {
+      "blockClass": "footer-text",
       "href": "",
       "label": "E-mail | contato@hospitalarshop.com.br"
     }
   },
   "link#commercial-email": {
     "props": {
+      "blockClass": "footer-text",
       "href": "",
       "label": "E-mail | comercial@hospitalarshop.com.br"
     }
   },
 
   "flex-layout.col#payment": {
+    "props": {
+      "width": "16%"
+    },
     "children": ["accepted-payment-methods"]
   },
   "accepted-payment-methods": {
     "props": {
+      "showInColor": true,
+      "blockClass": "payment-methods",
       "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
     }
   },
@@ -148,11 +177,11 @@
   "flex-layout.row#footer-2-desktop": {
     "children": ["social-networks"],
     "props": {
-      "blockClass": "payment-methods"
     }
   },
   "social-networks": {
     "props": {
+      "blockClass": "social-media",
       "socialNetworks": [
         {
           "name": "Instagram",

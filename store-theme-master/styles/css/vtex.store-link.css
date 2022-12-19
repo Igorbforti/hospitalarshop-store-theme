@@ -1,3 +1,35 @@
 .link--category-link {
     text-decoration: none;
 }
+
+.link--footer-text {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.link--footer-text:hover {
+    text-decoration: underline;
+    color: #e6e6e6db;
+}
+
+/* BLOG */
+
+.link--popular-post {
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+    border: 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    margin-bottom: 9px;
+}
+
+.link--go-to-blog {
+    padding: 20px;
+    background: #73C2AD;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #000;
+}

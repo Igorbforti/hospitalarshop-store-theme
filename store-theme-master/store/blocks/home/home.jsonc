@@ -13,7 +13,8 @@
       "flex-layout.row#fourth-shelf",
       "flex-layout.row#fifth-shelf",
       "flex-layout.row#sixth-shelf",
-      "rich-text#our-blog"
+      "rich-text#our-blog",
+      "flex-layout.row#blog"
     ]
   },
 

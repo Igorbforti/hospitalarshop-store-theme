@@ -163,6 +163,21 @@
   color: #000;
 }
 
+.paragraph--footer-title {
+  font-size: 15px;
+  color: #fff;
+  border-bottom: 1px solid #FFFFFF4D;
+  width: 145px;
+}
+
+/* BLOG */
+
+.paragraph--most-popular-text { 
+  width: 125px;
+  font-weight: bold;
+  color: #000;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;

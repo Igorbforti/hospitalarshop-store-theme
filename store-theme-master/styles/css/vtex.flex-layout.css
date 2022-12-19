@@ -133,6 +133,37 @@
   justify-content: center;
 }
 
+.flexRow--menu-row {
+  padding: 0 25px;
+}
+
+.flexCol--institutional-container {
+  padding: 0 0 0 60px;
+}
+
+/* BLOG */
+
+.flexRowContent--blog-container { 
+  margin-top: 53px;
+}
+
+.flexCol--post-container {
+  width: 320px;
+}
+
+.flexRowContent--popular-posts-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRowContent--popular-post-box {
+  width: 405px;
+}
+
+.flexColChild--blog-info-button {
+  display: flex;
+}
+
 @media screen and (min-width: 40em) {
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
