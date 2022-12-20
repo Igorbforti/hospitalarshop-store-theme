@@ -14,7 +14,8 @@
       "flex-layout.row#fifth-shelf",
       "flex-layout.row#sixth-shelf",
       "rich-text#our-blog",
-      "flex-layout.row#blog"
+      "flex-layout.row#blog",
+      "flex-layout.row#newsletter"
     ]
   },
 
@@ -577,6 +578,30 @@
     "props": {
       "blockClass": "our-blog",
       "text": "Nosso blog"
+    }
+  },
+
+  "flex-layout.row#newsletter": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": "newsletter-box"
+    },
+    "children": [
+      "rich-text#newsletter-text", 
+      "link#newsletter-button"
+    ]
+  },
+  "rich-text#newsletter-text": {
+    "props": {
+      "text": "Cadastre-se e seja um seller",
+      "blockClass": "newsletter-text"
+    }
+  },
+  "link#newsletter-button": {
+    "props": {
+      "label": "Canal Seller",
+      "href": "",
+      "blockClass": "newsletter-button"
     }
   }
 }

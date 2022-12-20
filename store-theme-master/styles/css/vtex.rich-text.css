@@ -172,10 +172,37 @@
 
 /* BLOG */
 
+.paragraph--post-title {
+  font-size: 13px;
+  color: #000;
+  font-weight: bold;
+}
+
+.paragraph--post-summary {
+  margin: 0;
+  font-size: 12px;
+  color: #000;
+}
+
 .paragraph--most-popular-text { 
   width: 125px;
   font-weight: bold;
+  font-size: 14px;
   color: #000;
+}
+
+.paragraph--social-media-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* NEWSLETTER */
+
+.paragraph--newsletter-text {
+  margin-right: 20px;
+  font-size: 20px;
+  color: #000000CC;
 }
 
 @media only screen and (min-width: 640px) {

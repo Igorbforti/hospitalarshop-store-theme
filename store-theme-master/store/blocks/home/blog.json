@@ -11,7 +11,8 @@
     
     "flex-layout.col#post-blog": {
         "props": {
-            "width": "60%"
+            "width": "65%",
+            "blockClass": "post-blog-container"
         },
         "children": [
         "flex-layout.row#post-first-row",
@@ -20,6 +21,10 @@
     },
     
     "flex-layout.row#post-first-row": {
+        "props": {
+            "blockClass": "post-first-row",
+            "preventHorizontalStretch": true
+        },
         "children": [
         "flex-layout.col#first-post",
         "flex-layout.col#second-post"
@@ -33,32 +38,38 @@
         "image#first-post",
         "rich-text#first-post-title",
         "rich-text#first-post-summary",
-        "link#first-post-button"
+        "flex-layout.row#first-post-button"
         ]
     },
     "image#first-post": {
         "props": {
-            "src": "assets/images/first-post.svg",
-            "blockClass": ""
+            "src": "assets/images/first-post.svg"
         }
     },
     "rich-text#first-post-title": {
         "props": {
             "text": "Principais dúvidas sobre a saúde",
-            "blockClass": ""
+            "blockClass": "post-title"
         }
     },
     "rich-text#first-post-summary": {
         "props": {
             "text": "O texto é uma manifestação escrita acerca das ideias de um autor (emissor ou locutor). Eles têm a função de transmitirem mensagens. O texto é uma manifestação escrita acerca das ideias de um autor (emissor ou locutor).",
-            "blockClass": ""
+            "blockClass": "post-summary"
         }
+    },
+    "flex-layout.row#first-post-button": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": "post-button-container"
+        },
+        "children": ["link#first-post-button"]
     },
     "link#first-post-button": {
         "props": {
             "label": "Continuar lendo...",
             "href": "",
-            "blockClass": ""
+            "blockClass": "post-button"
         }
     },
 
@@ -70,37 +81,46 @@
         "image#second-post",
         "rich-text#second-post-title",
         "rich-text#second-post-summary",
-        "link#second-post-button"
+        "flex-layout.row#second-post-button"
         ]
     },
     "image#second-post": {
         "props": {
-            "src": "assets/images/second-post.svg",
-            "blockClass": ""
+            "src": "assets/images/second-post.svg"
         }
     },
     "rich-text#second-post-title": {
         "props": {
             "text": "Proteção no local de trabalho",
-            "blockClass": ""
+            "blockClass": "post-title"
         }
     },
     "rich-text#second-post-summary": {
         "props": {
             "text": "O texto é uma manifestação escrita acerca das ideias de um autor (emissor ou locutor). Eles têm a função de transmitirem mensagens. O texto é uma manifestação escrita acerca das ideias de um autor (emissor ou locutor).",
-            "blockClass": ""
+            "blockClass": "post-summary"
         }
+    },
+    "flex-layout.row#second-post-button": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": "post-button-container"
+        },
+        "children": ["link#second-post-button"]
     },
     "link#second-post-button": {
         "props": {
             "label": "Continuar lendo...",
             "href": "",
-            "blockClass": ""
+            "blockClass": "post-button"
         }
     },
 
     
     "flex-layout.row#post-second-row": { 
+        "props": {
+            "preventHorizontalStretch": true
+        },
         "children": [
             "flex-layout.col#third-post",
             "flex-layout.col#fourth-post"
@@ -115,34 +135,40 @@
             "image#third-post",
             "rich-text#third-post-title",
             "rich-text#third-post-summary",
-            "link#third-post-button"
+            "flex-layout.row#third-post-button"
         ]
     },
     "image#third-post": {
         "props": {
-            "src": "assets/images/third-post.svg",
-            "blockClass": ""
+            "src": "assets/images/third-post.svg"
         }
     },
     "rich-text#third-post-title": {
         "props": {
             "text": "A saúde infantil",
-            "blockClass": ""
+            "blockClass": "post-title"
         }
     },
-        "rich-text#third-post-summary": {
-            "props": {
-                "text": "O texto é uma manifestação escrita acerca das ideias de um autor (emissor ou locutor). Eles têm a função de transmitirem mensagens. O texto é uma manifestação escrita acerca das ideias de um autor (emissor ou locutor).",
-                "blockClass": ""
-            }
+    "rich-text#third-post-summary": {
+        "props": {
+            "text": "O texto é uma manifestação escrita acerca das ideias de um autor (emissor ou locutor). Eles têm a função de transmitirem mensagens. O texto é uma manifestação escrita acerca das ideias de um autor (emissor ou locutor).",
+            "blockClass": "post-summary"
+        }
+    },
+    "flex-layout.row#third-post-button": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": "post-button-container"
         },
-        "link#third-post-button": {
-            "props": {
-                "label": "Continuar lendo...",
-                "href": "",
-                "blockClass": ""
-            }
-        },
+        "children": ["link#third-post-button"]
+    },
+    "link#third-post-button": {
+        "props": {
+            "label": "Continuar lendo...",
+            "href": "",
+            "blockClass": "post-button"
+        }
+    },
     
     "flex-layout.col#fourth-post": {
         "props": {
@@ -152,39 +178,44 @@
         "image#fourth-post",
         "rich-text#fourth-post-title",
         "rich-text#fourth-post-summary",
-        "link#fourth-post-button"
+        "flex-layout.row#fourth-post-button"
         ]
     },
     "image#fourth-post": {
-            "props": {
-                "src": "assets/images/fourth-post.svg",
-                "blockClass": ""
-            }
-        },
+        "props": {
+        "src": "assets/images/fourth-post.svg"
+        }
+    },
     "rich-text#fourth-post-title": {
-            "props": {
-                "text": "Melhorar a vida e a saúde com exercícios",
-                "blockClass": ""
-            }
-        },
+        "props": {
+            "text": "Melhorar a vida e a saúde com exercícios",
+            "blockClass": "post-title"
+        }
+    },
     "rich-text#fourth-post-summary": {
-            "props": {
-                "text": "O texto é uma manifestação escrita acerca das ideias de um autor (emissor ou locutor). Eles têm a função de transmitirem mensagens. O texto é uma manifestação escrita acerca das ideias de um autor (emissor ou locutor).",
-                "blockClass": ""
-            }
+        "props": {
+            "text": "O texto é uma manifestação escrita acerca das ideias de um autor (emissor ou locutor). Eles têm a função de transmitirem mensagens. O texto é uma manifestação escrita acerca das ideias de um autor (emissor ou locutor).",
+            "blockClass": "post-summary"
+        }
+    },
+    "flex-layout.row#fourth-post-button": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": "post-button-container"
         },
+        "children": ["link#fourth-post-button"]
+    },
     "link#fourth-post-button": {
             "props": {
                 "label": "Continuar lendo...",
                 "href": "",
-                "blockClass": ""
+                "blockClass": "post-button"
             }
         },
 
     "flex-layout.col#blog-info": {
         "props": {
             "preventVerticalStretch": true,
-            "width": "40%",
             "blockClass": "blog-info-button"
         },
         "children": [
@@ -202,38 +233,58 @@
     },
 
     "flex-layout.row#social-media-container": {
+        "props": {
+            "blockClass": "social-media-container"
+        },
         "children": [
-            "rich-text#social-media-title",
-            "social-networks#blog"
+            "flex-layout.row#social-media-title",
+            "flex-layout.row#social-media-icons"
         ]
+    },
+    "flex-layout.row#social-media-title": {
+        "children": ["rich-text#social-media-title"]
     },
     "rich-text#social-media-title": {
         "props": {
+            "blockClass": "social-media-title",
             "text": "Está gostando? Compartilhe"
         }
     },
-    "social-networks#blog": {
+
+    "flex-layout.row#social-media-icons": {
+        "children": [
+            "link#facebook",
+            "link#linkedin",
+            "link#whatsapp",
+            "link#gmail"
+        ]
+    },
+
+    "link#facebook": {
         "props": {
-            "socialNetworks": [
-                {
-                "name": "Facebook",
-                "url": "https://www.facebook.com/vtexonline/"
-                },
-                {
-                "name": "Linkedin",
-                "url": "https://www.instagram.com/vtextruecloud/"
-                },
-                {
-                "name": "Whatsapp",
-                "url": "https://www.instagram.com/vtextruecloud/"
-                },
-                {
-                "name": "Gmail",
-                "url": "https://www.facebook.com/vtexonline/"
-                }
-            ]
+            "blockClass": "facebook",
+            "href": ""
         }
     },
+    "link#linkedin": {
+        "props": {
+            "blockClass": "linkedin",
+            "href": ""
+        }
+    },
+    "link#whatsapp": {
+        "props": {
+            "blockClass": "whatsapp",
+            "href": ""
+        }
+    },
+    "link#gmail": {
+        "props": {
+            "blockClass": "gmail",
+            "href": ""
+        }
+    },
+
     "flex-layout.row#popular-posts": {
         "props": {
             "blockClass": "popular-posts-container"
