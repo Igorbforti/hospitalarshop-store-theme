@@ -166,6 +166,11 @@
   padding: 6px 12px 12px 12px;
 }
 
+.flexCol--post-container:hover {
+  background-color: #e7e7e7;
+  transition: 0.2s;
+}
+
 .flexRow--post-first-row {
   margin-bottom: 40px;
 }
