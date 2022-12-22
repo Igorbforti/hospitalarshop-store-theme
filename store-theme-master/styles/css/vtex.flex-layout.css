@@ -48,6 +48,34 @@
   width: 100%;
 }
 
+/* MINICART */
+
+.flexRowContent--cart-summary {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.flexColChild--minicart-product-info {
+  margin-left: 10px;
+}
+
+.flexColChild--minicart-product-info {
+  font-size: 14px;
+}
+
+.flexRowContent--minicart {
+  display: flex;
+  align-items: center;
+}
+
+.flexRowContent--bottom-info {
+  display: flex;
+  align-items: center;
+}
+
 /* HOMEPAGE */
 
 .flexRow--main-banner-box {

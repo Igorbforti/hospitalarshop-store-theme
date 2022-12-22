@@ -23,3 +23,8 @@
     left: 24px;
     top: -13px;
 }
+
+.minicartCheckoutButton--minicart-checkout :global(.vtex-button) {
+    background-color: #73C2AD;
+    border: none;
+}

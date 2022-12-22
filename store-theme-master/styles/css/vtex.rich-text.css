@@ -125,7 +125,7 @@
 
 /* MINICART */
 
-.paragraph--minicartEmptyTitle {
+.paragraph--minicart-empty-title {
   text-align: center;
 }
 
@@ -188,6 +188,7 @@
   margin: 0;
   font-size: 12px;
   color: #000;
+  margin-bottom: 10px;
 }
 
 .paragraph--most-popular-text { 
