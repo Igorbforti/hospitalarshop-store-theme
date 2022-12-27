@@ -3,7 +3,9 @@
 }
 
 .link--footer-text {
-    font-size: 14px;
+    font-size: 15px;
+    font-family: 'Calibri', sans-serif;
+    font-weight: 400;
     color: #fff;
     text-decoration: none;
 }
@@ -26,6 +28,9 @@
     background: #73C2AD;
     text-decoration: none;
     color: #000;
+    font-family: 'Calibri', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
 }
 
 .link--post-button:hover {
@@ -52,13 +57,16 @@
 .link--go-to-blog {
     width: 230px;
     padding: 20px;
-    margin-bottom: 52px;
+    margin-bottom: 50px;
     border-radius: 30px;
     background: #73C2AD;
     text-decoration: none;
     font-size: 20px;
     text-align: center;
     color: #000;
+    font-family: 'Calibri', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
 }
 
 .link--go-to-blog:hover {
@@ -105,7 +113,7 @@
     color: #000;
     border-radius: 7px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .link--newsletter-button:hover {

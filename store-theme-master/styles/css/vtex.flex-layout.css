@@ -109,6 +109,8 @@
 
 .flexColChild--cart-button :global(.vtex-button) {
     font-weight: 400;
+    font-family: 'Calibri', sans-serif;
+    font-size: 20px;
     width: 130px;
     background-color: #73C2AD;
     border: none;
@@ -227,7 +229,7 @@
   display: flex;
   flex-direction: column;
   width: 500px;
-  margin-bottom: 68px;
+  margin-bottom: 23px;
 }
 
 /* NEWSLETTER */

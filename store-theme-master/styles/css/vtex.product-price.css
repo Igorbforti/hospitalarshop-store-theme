@@ -25,8 +25,9 @@
 }
 
 .sellingPriceValue--summary {
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Calibri', sans-serif;
   color: #2E2E2E;
 }
 
@@ -62,6 +63,8 @@
   margin-bottom: 2rem;
   font-size: 12px;
   font-weight: 400;
+  font-family: 'Calibri', sans-serif;
+
 }
 
 .savings--summaryPercentage {

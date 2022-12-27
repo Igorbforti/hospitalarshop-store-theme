@@ -75,6 +75,7 @@
   border-radius: 20px 0 0 20px;
   background-color: #73C2AD33;
   color: #000;
+  font-family: 'Calibri', sans-serif;
 }
 
 .autoCompleteOuterContainer--header-search:hover {

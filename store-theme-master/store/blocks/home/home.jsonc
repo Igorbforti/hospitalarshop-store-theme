@@ -2,11 +2,8 @@
   "store.home": {
     "blocks": [
       "flex-layout.row#main-banner",
-      /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "__fold__",
       "flex-layout.row#info-shelf",
-        "flex-layout.row#discount-shelf",
+      "flex-layout.row#discount-shelf",
       "flex-layout.row#second-shelf",
       "flex-layout.row#third-shelf",
       "flex-layout.row#category-group",

@@ -170,7 +170,7 @@
     "props": {
       "showInColor": true,
       "blockClass": "payment-methods",
-      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
+      "paymentMethods": ["MasterCard", "Visa"]
     }
   },
 
