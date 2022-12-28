@@ -248,6 +248,64 @@
   width: 535px;
 }
 
+
+/* *********PRODUCT PAGE*********  */
+
+.flexRowContent--breadcrumb-box {
+  padding: 0 66px;
+}
+
+.flexRow--product-main {
+  padding: 0 66px;
+}
+
+.flexColChild--product-image-box {
+  display: flex;
+  justify-content: center;
+}
+
+.flexColChild--right-col :global(.vtex-reviews-and-ratings-3-x-summaryContainer) {
+  border-bottom: 1px solid #00000080;
+}
+
+.flexColChild--right-col :global(.vtex-product-price-1-x-installments) {
+  color: #00000099;
+  font-family: 'Calibri', sans-serif;
+  font-weight: 400;
+}
+
+.flexColChild--right-col :global(.vtex-flex-layout-0-x-flexRowContent) {
+  margin-bottom: 0;
+}
+
+.flexRow--quantity-button-box {
+  margin-top: 45px;
+}
+
+.flexRowContent--quantity-button-box :global(.vtex-product-quantity-1-x-quantitySelectorTitle) {
+  font-family: 'Calibri', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+:global(.vtex-numeric-stepper__input), :global(.vtex-numeric-stepper__plus-button), :global(.vtex-numeric-stepper__minus-button) {
+  background-color: #d9d9d9;
+  color: #000;
+  border: none;
+  font-family: 'Calibri', sans-serif;
+}
+
+.flexRowContent--product-buy-button :global(.vtex-button) {
+  border: none;
+  border-radius: 20px;
+  width: 248px;
+  height: 46px;
+  background-color: #73C2AD;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: 'Calibri', sans-serif;
+}
+
 @media screen and (min-width: 40em) {
   .flexRowContent--menu-link,
   .flexRowContent--main-header {

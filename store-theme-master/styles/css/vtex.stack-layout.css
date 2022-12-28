@@ -8,3 +8,8 @@
   top: 0;
   left: auto;
 }
+
+.stackItem--product--product-image {
+  width: 531px;
+  height: 520px;
+}

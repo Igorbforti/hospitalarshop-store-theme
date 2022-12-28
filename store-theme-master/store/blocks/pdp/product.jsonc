@@ -21,6 +21,7 @@
   },
   "flex-layout.row#product-breadcrumb": {
     "props": {
+      "blockClass": "breadcrumb-box",
       "marginTop": 4
     },
     "children": ["breadcrumb"]
@@ -44,6 +45,7 @@
   },
   "flex-layout.row#product-main": {
     "props": {
+      "blockClass": "product-main",
       "colGap": 7,
       "rowGap": 7,
       "marginTop": 4,
@@ -77,11 +79,15 @@
   "flex-layout.col#stack": {
     "children": ["stack-layout"],
     "props": {
+      "blockClass": "product-image-box",
       "width": "60%",
       "rowGap": 0
     }
   },
   "flex-layout.row#product-image": {
+    "props": {
+      "blockClass": "product-image"
+    },
     "children": ["product-images"]
   },
   "product-images": {
@@ -90,11 +96,13 @@
         "desktop": "auto",
         "phone": "16:9"
       },
-      "displayThumbnailsArrows": true
+      "showNavigationArrows": false,
+      "thumbnailsOrientation": "horizontal"
     }
   },
   "flex-layout.col#right-col": {
     "props": {
+      "blockClass": "right-col",
       "preventVerticalStretch": true,
       "rowGap": 0
     },
@@ -104,16 +112,11 @@
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
       "product-installments",
-      "product-separator",
-      "product-identifier.product",
       "sku-selector",
-      "product-quantity",
-      "product-assembly-options",
-      "product-gifts",
-      "flex-layout.row#buy-button",
+      "flex-layout.row#quantity-button-box",
+      "product-separator",
       "availability-subscriber",
-      "shipping-simulator",
-      "share#default"
+      "shipping-simulator"
     ]
   },
 
@@ -123,16 +126,27 @@
     },
     "children": ["vtex.store-components:product-name"]
   },
-
+  
   "sku-selector": {
     "props": {
       "variationsSpacing": 3,
       "showValueNameForImageVariation": true
     }
   },
+  
+  "flex-layout.row#quantity-button-box": {
+    "props": {
+      "blockClass": "quantity-button-box"
+    },
+    "children": [
+      "product-quantity",
+      "flex-layout.row#buy-button"
+    ]
+  },
 
   "flex-layout.row#buy-button": {
     "props": {
+      "blockClass": "product-buy-button",
       "marginTop": 4,
       "marginBottom": 7
     },

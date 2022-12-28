@@ -108,6 +108,14 @@
   position: relative;
 }
 
+/* ******PRODUCT PAGE****** */
+
+.productNameContainer {
+  color: #000;
+  font-weight: 700;
+  font-size: 36px;
+}
+
 @media only screen and (min-width: 640px) {
   .newsletter .container {
     padding: 140px;
@@ -143,12 +151,6 @@
   margin: 0;
   padding: 0;
   width: 100%;
-}
-
-.productNameContainer {
-  color: #3f3f40;
-  font-weight: bold;
-  font-size: 30px;
 }
 
 .image {
