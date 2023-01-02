@@ -114,7 +114,6 @@
       "product-installments",
       "sku-selector",
       "flex-layout.row#quantity-button-box",
-      "product-separator",
       "availability-subscriber",
       "shipping-simulator"
     ]
@@ -185,14 +184,9 @@
     "children": ["availability-subscriber"]
   },
 
-  "share#default": {
+  "shipping-simulator": {
     "props": {
-      "social": {
-        "Facebook": true,
-        "WhatsApp": true,
-        "Twitter": false,
-        "Pinterest": true
-      }
+      "blockClass": "shipping"
     }
   }
 }

@@ -280,6 +280,7 @@
 
 .flexRow--quantity-button-box {
   margin-top: 45px;
+  border-bottom: 1px solid #00000080;
 }
 
 .flexRowContent--quantity-button-box :global(.vtex-product-quantity-1-x-quantitySelectorTitle) {
@@ -295,6 +296,14 @@
   font-family: 'Calibri', sans-serif;
 }
 
+:global(.vtex-numeric-stepper__plus-button) {
+  border-radius: 7px;
+}
+
+:global(.vtex-numeric-stepper__minus-button) {
+  border-radius: 7px;
+}
+
 .flexRowContent--product-buy-button :global(.vtex-button) {
   border: none;
   border-radius: 20px;
@@ -304,6 +313,10 @@
   font-weight: 400;
   font-size: 20px;
   font-family: 'Calibri', sans-serif;
+}
+
+.flexColChild--right-col :global(.vtex-input__suffix) {
+  display: none;
 }
 
 @media screen and (min-width: 40em) {
