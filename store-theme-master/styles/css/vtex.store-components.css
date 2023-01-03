@@ -147,11 +147,29 @@
   border-radius: 20px;
   border: none;
   margin-left: 20px;
-  background: #73C2AD80;
+  background: #73C2AD;
   color: #fff;
   font-family: 'Calibri', sans-serif;
   font-weight: 400;
   font-size: 16px;
+}
+
+.shippingContainer :global(.vtex-button):hover {
+  background-color: #6cb6a2;
+  cursor: pointer;
+}
+
+.productDescriptionTitle {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.productDescriptionText--product-description {
+  font-family: 'Calibri', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  padding: 0 14px;
 }
 
 @media only screen and (min-width: 640px) {

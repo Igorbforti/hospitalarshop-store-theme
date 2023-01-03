@@ -257,6 +257,7 @@
 
 .flexRow--product-main {
   padding: 0 66px;
+  height: 700px;
 }
 
 .flexColChild--product-image-box {
@@ -315,8 +316,17 @@
   font-family: 'Calibri', sans-serif;
 }
 
+.flexRowContent--product-buy-button :global(.vtex-button):hover {
+  background-color: #6cb6a2;
+}
+
 .flexColChild--right-col :global(.vtex-input__suffix) {
   display: none;
+}
+
+.flexRow--product-description {
+  margin-top: 105px;
+  padding: 0 66px;
 }
 
 @media screen and (min-width: 40em) {
