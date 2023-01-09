@@ -6,7 +6,7 @@
       "flex-layout.row#description",
       "flex-layout.row#specifications-title",
       "product-specification-group#table",
-      "shelf.relatedProducts",
+      "flex-layout.row#related-content",
       "product-reviews",
       "product-questions-and-answers"
     ]
@@ -192,9 +192,32 @@
     "children": ["availability-subscriber"]
   },
 
-  "shipping-simulator": {
+  "flex-layout.row#related-content": {
+    "children": ["rich-text#related-products", "shelf.relatedProducts#desktop"]
+  },
+
+  "rich-text#related-products": {
     "props": {
-      "blockClass": "shipping"
+      "text": "##### Produtos similares",
+      "blockClass": "related-text-section"
+    }
+  },
+
+  "shelf.relatedProducts#desktop": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "recommendation": "similars",
+      "blockClass": "related-products",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 5,
+        "scroll": "BY_PAGE",
+        "showNavigationArrows": "always",
+        "showPaginationDots": "never",
+        "showTitle": false,
+        "titleText": "Title"
+      }
     }
   }
 }
