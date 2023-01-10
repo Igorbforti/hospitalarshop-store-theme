@@ -6,3 +6,15 @@
     max-width: 220px;
     height: 403px;
 }
+
+.title--related-products {
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 20%;
+}
+
+.dot--isActive--related-products {
+    display: none;
+}

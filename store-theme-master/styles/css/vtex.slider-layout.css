@@ -58,3 +58,7 @@
 .slide--product-shelf:hover {
   box-shadow: 4px 4px 4px 0px #00000040;
 }
+
+.dotsContainer {
+  display: none;
+}

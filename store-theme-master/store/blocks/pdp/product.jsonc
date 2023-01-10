@@ -193,14 +193,7 @@
   },
 
   "flex-layout.row#related-content": {
-    "children": ["rich-text#related-products", "shelf.relatedProducts#desktop"]
-  },
-
-  "rich-text#related-products": {
-    "props": {
-      "text": "##### Produtos similares",
-      "blockClass": "related-text-section"
-    }
+    "children": ["shelf.relatedProducts#desktop"]
   },
 
   "shelf.relatedProducts#desktop": {
@@ -213,10 +206,10 @@
         "itemsPerPage": 5,
         "minItemsPerPage": 5,
         "scroll": "BY_PAGE",
-        "showNavigationArrows": "always",
+        "arrow": true,
         "showPaginationDots": "never",
-        "showTitle": false,
-        "titleText": "Title"
+        "showTitle": true,
+        "titleText": "Produtos similares"
       }
     }
   }
