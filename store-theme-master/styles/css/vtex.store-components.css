@@ -165,11 +165,11 @@
 }
 
 .productDescriptionText--product-description {
-  font-family: 'Calibri', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  color: #000;
   padding: 0 14px;
+  background-color: #73C2AD1A;
+  border-radius: 27px;
+  border: none;
+  padding: 10px;
 }
 
 @media only screen and (min-width: 640px) {
